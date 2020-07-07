@@ -10,7 +10,7 @@ Node at least V10
 
 ## Running the app
 
-### First time do
+### Just after git clone do
 ### `npm install`
 
 ### Then do
