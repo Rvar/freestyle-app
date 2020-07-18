@@ -19,14 +19,16 @@ class GenerateurCitation extends Component {
     }
 
   pickACitation() {
-    
+    const max = this.state.listItems.length - 1;
+    const rand = Math.floor(Math.random() * Math.floor(max))
+
     this.setState({indexCitation: this.state.indexCitation + 1 });
 
     if(this.state.indexCitation == (this.state.listItems.length - 1)) {
       this.setState({indexCitation: 0 });
     }
 
-    this.setState({ citation: this.state.listItems[this.state.indexCitation] });
+    this.setState({ citation: this.state.listItems[rand] });
   }
 
   render() {
