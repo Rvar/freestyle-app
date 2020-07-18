@@ -20,14 +20,16 @@ class GenerateurCitation extends Component {
 
   pickACitation() {
     const max = this.state.listItems.length - 1;
-    const rand = Math.floor(Math.random() * Math.floor(max))
+    var rand = 0;
 
-    this.setState({indexCitation: this.state.indexCitation + 1 });
+    //Je fais ça pour pas avoir 2 fois de suite la meme citation
+    do {
+      rand = Math.floor(Math.random() * Math.floor(max));
+    } while (this.state.indexCitation === rand);
 
-    if(this.state.indexCitation == (this.state.listItems.length - 1)) {
-      this.setState({indexCitation: 0 });
-    }
-
+    console.log("MAX : " + max);
+    
+    this.setState({indexCitation: rand });
     this.setState({ citation: this.state.listItems[rand] });
   }
 

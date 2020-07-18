@@ -35,9 +35,9 @@ function App() {
       </div>
       <div className="body">
          <Switch>
-           //!!!!!!!!!!!!!!
-           //AJOUTER ROUTE
-           //!!!!!!!!!!!!!!
+           //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+           //AJOUTER ROUTE ET LINK : Link to... (au dessus)
+           //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
            <Route path="/generateurCitation">
              <GenerateurCitation />
            </Route>
