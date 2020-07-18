@@ -14,17 +14,19 @@ class GenerateurCitation extends Component {
       );
 
       this.state = {citation: "",
-                    listItems: listItems}
+                    listItems: listItems,
+                    indexCitation: 0}
     }
 
   pickACitation() {
-    const max = this.state.listItems.length - 1;
+    
+    this.setState({indexCitation: this.state.indexCitation + 1 });
 
-    const rand = Math.floor(Math.random() * Math.floor(max))
+    if(this.state.indexCitation == (this.state.listItems.length - 1)) {
+      this.setState({indexCitation: 0 });
+    }
 
-    console.log("random : " + rand);
-
-    this.setState({ citation: this.state.listItems[rand] });
+    this.setState({ citation: this.state.listItems[this.state.indexCitation] });
   }
 
   render() {
