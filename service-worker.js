@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/freestyle-app/precache-manifest.1415f36d772ed800cb143a06e79fe8cc.js"
+  "/freestyle-app/precache-manifest.4a3d08e4893d15c3756a7c36b1680614.js"
 );
 
 self.addEventListener('message', (event) => {
