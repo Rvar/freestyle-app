@@ -1,0 +1,25 @@
+
+.generateBtn {
+    border: 1px solid #ccc;
+    padding: 6px 6px 6px 6px;
+    margin-top: 20px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px #aaa;
+    background: #eee;
+    font: bold 13px Arial;
+    color: #1c0000;
+}
+
+.citation {
+    margin: 10px 10px 50px 30px;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.auteurCitation {
+    margin-top: 5px;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 300;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './generateurCitation.css';
 
 class GenerateurCitation extends Component {
 
@@ -7,9 +8,9 @@ class GenerateurCitation extends Component {
 
       const data = require('./citations.json');
       const listItems = data.map((item) =>
-        <div>
-          {item.citation}
-          <div> - {item.auteur}</div>
+        <div className="citation">
+          "{item.citation}"
+          <div className="auteurCitation"> - {item.auteur}</div>
         </div>
       );
 
@@ -37,10 +38,8 @@ class GenerateurCitation extends Component {
     return (
       <div>
         <h2> GENERATEUR DE CITATION </h2>
-        <h3>
           {this.state.citation}
-        </h3>
-        <a href="#" onClick={() => this.pickACitation()}>
+        <a className="generateBtn" href="#" onClick={() => this.pickACitation()}>
           Générer
         </a>
       </div>
