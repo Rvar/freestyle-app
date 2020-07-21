@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/freestyle-app/static/css/main.be183f80.chunk.css",
-    "main.js": "/freestyle-app/static/js/main.6043a835.chunk.js",
-    "main.js.map": "/freestyle-app/static/js/main.6043a835.chunk.js.map",
+    "main.css": "/freestyle-app/static/css/main.51f340dd.chunk.css",
+    "main.js": "/freestyle-app/static/js/main.720b1d0e.chunk.js",
+    "main.js.map": "/freestyle-app/static/js/main.720b1d0e.chunk.js.map",
     "runtime-main.js": "/freestyle-app/static/js/runtime-main.afc250b7.js",
     "runtime-main.js.map": "/freestyle-app/static/js/runtime-main.afc250b7.js.map",
     "static/js/2.c9b0e207.chunk.js": "/freestyle-app/static/js/2.c9b0e207.chunk.js",
     "static/js/2.c9b0e207.chunk.js.map": "/freestyle-app/static/js/2.c9b0e207.chunk.js.map",
     "index.html": "/freestyle-app/index.html",
-    "precache-manifest.eb0baf09411edf2af7473b78e67b2ea3.js": "/freestyle-app/precache-manifest.eb0baf09411edf2af7473b78e67b2ea3.js",
+    "precache-manifest.a628fe22ca59b5a46481af6b5c56e3b2.js": "/freestyle-app/precache-manifest.a628fe22ca59b5a46481af6b5c56e3b2.js",
     "service-worker.js": "/freestyle-app/service-worker.js",
-    "static/css/main.be183f80.chunk.css.map": "/freestyle-app/static/css/main.be183f80.chunk.css.map",
+    "static/css/main.51f340dd.chunk.css.map": "/freestyle-app/static/css/main.51f340dd.chunk.css.map",
     "static/js/2.c9b0e207.chunk.js.LICENSE.txt": "/freestyle-app/static/js/2.c9b0e207.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.afc250b7.js",
     "static/js/2.c9b0e207.chunk.js",
-    "static/css/main.be183f80.chunk.css",
-    "static/js/main.6043a835.chunk.js"
+    "static/css/main.51f340dd.chunk.css",
+    "static/js/main.720b1d0e.chunk.js"
   ]
 }
