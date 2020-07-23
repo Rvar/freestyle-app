@@ -12,6 +12,7 @@ npm install gh-pages --save-dev (for github pages deployment)
 ## Running the app
 
 ### Just after git clone do
+### cd freestyle-app/
 ### `npm install`
 
 ### Then do
