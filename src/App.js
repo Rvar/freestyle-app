@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import Home from './home/Home';
-import GenerateurCitation from './generateur_citation/GenerateurCitation'
+import GenerateurCitation from './generateur_citation/GenerateurCitation';
+import BoiteAIdee from './boite_a_idees/BoiteAIdees';
 //!!!!!!!!!!!!!!
 //AJOUTER IMPORT
 //!!!!!!!!!!!!!!
@@ -28,6 +29,9 @@ function App() {
                <Link to="/generateurCitation">Générateur de citation</Link>
              </li>
              <li>
+               <Link to="/boiteAIdee">Boite à idées</Link>
+             </li>
+             <li>
                <Link to="/">autre</Link>
              </li>
            </ul>
@@ -40,6 +44,9 @@ function App() {
            //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
            <Route path="/generateurCitation">
              <GenerateurCitation />
+           </Route>
+           <Route path="/boiteAIdee">
+             <BoiteAIdee />
            </Route>
            <Route path="/">
              <Home />
