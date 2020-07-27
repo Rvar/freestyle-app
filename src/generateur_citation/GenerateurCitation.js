@@ -29,7 +29,7 @@ class GenerateurCitation extends Component {
     } while (this.state.indexCitation === rand);
 
     console.log("MAX : " + max);
-    
+
     this.setState({indexCitation: rand });
     this.setState({ citation: this.state.listItems[rand] });
   }

@@ -3,6 +3,7 @@ import './App.css';
 import Home from './home/Home';
 import GenerateurCitation from './generateur_citation/GenerateurCitation';
 import BoiteAIdee from './boite_a_idees/BoiteAIdees';
+import TodoList from './todo_list/TodoList';
 //!!!!!!!!!!!!!!
 //AJOUTER IMPORT
 //!!!!!!!!!!!!!!
@@ -32,6 +33,9 @@ function App() {
                <Link to="/boiteAIdee">Boite à idées</Link>
              </li>
              <li>
+               <Link to="/todoList">Todo list</Link>
+             </li>
+             <li>
                <Link to="/">autre</Link>
              </li>
            </ul>
@@ -47,6 +51,9 @@ function App() {
            </Route>
            <Route path="/boiteAIdee">
              <BoiteAIdee />
+           </Route>
+           <Route path="/todoList">
+             <TodoList />
            </Route>
            <Route path="/">
              <Home />
