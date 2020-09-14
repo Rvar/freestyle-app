@@ -14,11 +14,11 @@ import {
   Link
 } from "react-router-dom";
 
-const DATATODO = [
+/*const DATATODO = [
   { id: "todo-0", name: "Eat", completed: true },
   { id: "todo-1", name: "Rupture", completed: false },
   { id: "todo-2", name: "Evenement", completed: false }
-];
+];*/
 
 
 class App extends Component {
@@ -66,7 +66,7 @@ class App extends Component {
                <BoiteAIdee />
              </Route>
              <Route path="/todoList">
-               <TodoList tasks={DATATODO}/>
+               <TodoList /*tasks={DATATODO}*//>
              </Route>
              <Route path="/">
                <Home />
