@@ -4,6 +4,7 @@ import Home from './home/Home';
 import GenerateurCitation from './generateur_citation/GenerateurCitation';
 import BoiteAIdee from './boite_a_idees/BoiteAIdees';
 import TodoList from './todo_list/TodoList';
+import FetchDataFromApi from './fetch_data_from_api/fetchDataFromApi.js';
 //!!!!!!!!!!!!!!
 //AJOUTER IMPORT
 //!!!!!!!!!!!!!!
@@ -49,6 +50,9 @@ class App extends Component {
                  <Link to="/todoList">Todo list</Link>
                </li>
                <li>
+                 <Link to="/fetchDataFromApi">Fetch Data From API</Link>
+               </li>
+               <li>
                  <Link to="/">autre</Link>
                </li>
              </ul>
@@ -67,6 +71,9 @@ class App extends Component {
              </Route>
              <Route path="/todoList">
                <TodoList /*tasks={DATATODO}*//>
+             </Route>
+             <Route path="/fetchDataFromApi">
+               <FetchDataFromApi />
              </Route>
              <Route path="/">
                <Home />
