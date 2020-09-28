@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8cbb2d7f4aee7c8cb75b864f35d11cf9",
+    "revision": "69f7d843f9c4d141aac7248cd7cf76ab",
     "url": "/freestyle-app/index.html"
   },
   {
-    "revision": "be7a3f242737dfadc7dc",
+    "revision": "6569e3d67cec58ca0da7",
     "url": "/freestyle-app/static/css/main.7414d51c.chunk.css"
   },
   {
-    "revision": "ec11be7442aada740d45",
-    "url": "/freestyle-app/static/js/2.eb21563c.chunk.js"
+    "revision": "3383c162f41a0fa1d7da",
+    "url": "/freestyle-app/static/js/2.34121c59.chunk.js"
   },
   {
     "revision": "c6929433055258b3a5d8ad82e9574ce9",
-    "url": "/freestyle-app/static/js/2.eb21563c.chunk.js.LICENSE.txt"
+    "url": "/freestyle-app/static/js/2.34121c59.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "be7a3f242737dfadc7dc",
-    "url": "/freestyle-app/static/js/main.877c312d.chunk.js"
+    "revision": "6569e3d67cec58ca0da7",
+    "url": "/freestyle-app/static/js/main.216593a2.chunk.js"
   },
   {
     "revision": "9f4d794aff23e646123d",
