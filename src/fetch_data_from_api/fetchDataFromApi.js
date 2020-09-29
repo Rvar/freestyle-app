@@ -5,7 +5,8 @@ class FetchDataFromApi extends Component {
 
   state = {
     persons: [],
-    fontaines: []
+    fontaines: [],
+    posts: []
   }
 
   componentDidMount() {
@@ -19,6 +20,11 @@ class FetchDataFromApi extends Component {
         .then(res => {
           this.setState({ fontaines: res.data.records });
         });
+
+      axios.get(`https://my-json-server.typicode.com/rvar/freestyle-app/posts`)
+        .then(res => {
+          this.setState({ posts: res.data });
+        });
     }
 
 
@@ -26,13 +32,17 @@ class FetchDataFromApi extends Component {
     render() {
       return (
         <div>
-          <h2> Fetch data with axios from : jsonplaceholder.typicode.com/</h2>
+          <h3> Fetch data with axios from : jsonplaceholder.typicode.com/</h3>
           <ul>
             {this.state.persons.map(person => <li>{person.name}</li>)}
           </ul>
           <h3>Fontaines de Paris</h3>
           <ul>
             {this.state.fontaines.map(fontaine => <li>{fontaine.fields.voie}</li>)}
+          </ul>
+          <h3>Posts from jsonServer</h3>
+          <ul>
+            {this.state.posts.map(post => <li>{post.title}</li>)}
           </ul>
         </div>
       );

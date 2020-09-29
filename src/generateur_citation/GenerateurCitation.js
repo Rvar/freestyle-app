@@ -19,6 +19,13 @@ class GenerateurCitation extends Component {
                     indexCitation: 0}
     }
 
+    /*componentDidMount() {
+      axios.get(`https://my-json-server.typicode.com/rvar/freestyle-app/citations`)
+        .then(res => {
+          this.setState({ posts: res.data });
+        });
+    }*/
+
   pickACitation() {
     const max = this.state.listItems.length - 1;
     var rand = 0;
