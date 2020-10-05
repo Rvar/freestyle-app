@@ -5,6 +5,7 @@ import GenerateurCitation from './generateur_citation/GenerateurCitation';
 import BoiteAIdee from './boite_a_idees/BoiteAIdees';
 import TodoList from './todo_list/TodoList';
 import FetchDataFromApi from './fetch_data_from_api/fetchDataFromApi.js';
+import MapStuff from './map_stuff/mapStuff.js';
 //!!!!!!!!!!!!!!
 //AJOUTER IMPORT
 //!!!!!!!!!!!!!!
@@ -53,6 +54,9 @@ class App extends Component {
                  <Link to="/fetchDataFromApi">Fetch Data From API</Link>
                </li>
                <li>
+                 <Link to="/mapStuff">Map stuff</Link>
+               </li>
+               <li>
                  <Link to="/">autre</Link>
                </li>
              </ul>
@@ -74,6 +78,9 @@ class App extends Component {
              </Route>
              <Route path="/fetchDataFromApi">
                <FetchDataFromApi />
+             </Route>
+             <Route path="/mapStuff">
+               <MapStuff />
              </Route>
              <Route path="/">
                <Home />

@@ -27,8 +27,6 @@ class FetchDataFromApi extends Component {
         });
     }
 
-
-
     render() {
       return (
         <div>
