@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from 'axios';
 import './generateurCitation.css';
 
 class GenerateurCitation extends Component {
@@ -19,15 +20,8 @@ class GenerateurCitation extends Component {
                     indexCitation: 0}
     }
 
-    /*componentDidMount() {
-      axios.get(`https://my-json-server.typicode.com/rvar/freestyle-app/citations`)
-        .then(res => {
-          this.setState({ posts: res.data });
-        });
-    }*/
-
   pickACitation() {
-    const max = this.state.listItems.length - 1;
+    const max = this.state.listItems.length === 0? 0: this.state.listItems.length -1;
     var rand = 0;
 
     //Je fais ça pour pas avoir 2 fois de suite la meme citation
